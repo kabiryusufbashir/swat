@@ -9,3 +9,8 @@
     SWAT Foundation - Home
 @endsection
 
+@section('body-content')
+    <div>
+        <img class="object-cover w-full" src="{{ asset('images/bg-1.jpg') }}" alt="SWAT Students">
+    </div>
+@endsection
