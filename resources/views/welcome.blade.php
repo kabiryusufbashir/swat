@@ -24,7 +24,7 @@
             <img class="mx-auto w-72 md:w-96" src="{{ asset('images/logo.png') }}" alt="Foundation Logo">
         </div>
         <div>
-            <p class="text-2xl text-blue-600 leading-8">
+            <p class="text-xl text-blue-600 leading-8">
                 SWAT brings together charities, corporations and individuals to lobby and achieve our ambitious aim of free basic education for children who are victims of insurgency in Northern Nigeria, by providing a practical way to extend a helping hand. Quality education is the key to achieving a healthier, safer and more equitable society - this is why SWAT foundation campaigns for education for all
             </p>
         </div>
@@ -34,7 +34,7 @@
             <div class="text-5xl py-4 text-blue-600">
                 You can help make education for all a reality
             </div>
-            <div class="bg-blue-600 px-4 md:px-8 py-4 text-white text-xl text-justify leading-7">
+            <div class="bg-blue-600 px-4 md:px-8 py-4 text-white text-xl md:text-sm text-justify leading-7">
                 <p class="py-2">
                     Education beats poverty - and gives people the tools to help themselves
                 </p>
@@ -50,7 +50,7 @@
             <img class="w-full" src="{{ asset('images/students.jpg') }}" alt="Students Photo">
         </div>
         <div class="col-span-1 mx-auto">
-            <div class="text-xl py-4 text-blue-600 text-justify">
+            <div class="py-4 text-blue-600 text-justify">
                 <p class="py-2">
                     So many Parents have been killed due to the insurgency in the North-east rendering a lot of children orphans
                 </p> 
@@ -60,51 +60,62 @@
             </div>
         </div>
     </div>
-    <div class="grid grid-cols-3 gap-4 px-4 md:px-24 py-4">
-        <div>Man</div>
-        <div>UMMM</div>
+    <div class="md:grid grid-cols-3 gap-6 px-4 md:px-24 py-4 text-justify text-blue-600">
         <div>
             <p class="my-2">
-                <h1 class="text-2xl text-blue-600 pb-4">
-                    Take Action for Children’s Education. Sponsor a Package!!!
+                <h1 class="text-4xl font-bold text-blue-600 pb-4">
+                    SWAT FOUNDATION
+                </h1>
+                    SWAT foundation is committed to aiding children especially victims of terror/insurgency in the North-east by providing a practical way for charities, corporations and individuals to extend a helping hand. We are focusing on empowering them through education. Many children remain out of school due to the numerous challenges they face.
+                <ul class="list-disc px-8">    
+                    <li>A lot of children are orphans due to insurgency in North East Nigeria and cannot afford to go to school</li>
+                    <li>School materials, transport and fees force guardians of these orphans to choose between sons and daughters, and daughters usually lose out</li>
+                    <li>Schools are often far from home, making the journey dangerous for children as they face the double threat of being the victim of an attack and the risk of road traffic accidents</li>
+                    <li>When children do make it to school, they often struggle to learn in crowded classrooms. They are often taught by untrained and poorly paid teachers. Without the incentives to stay at school and learn, many children drop out. In areas of insurgency, one in three children who starts school never get the chance to complete basic primary school, let alone progress to secondary school</li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <p class="my-2">
+                <h1 class="text-2xl font-bold text-blue-600 pb-4">
+                    WHY EDUCATION?
+                </h1>
+                    So many parent have been killed due to the insurgency in the North-east rendering a lot of children orphans. <br>
+                    Education is imperative in tackling poverty. When individuals have the chance to learn basic life and literacy skills, economies grow faster and poverty rates decline. When people go to school, they are able to eventually earn more money and support their families.<br>
+                <ul class="list-disc px-8">    
+                    <li>A single year of primary school increases the wages people earn later in life by 5-15% for boys and even more for girls</li>
+                    <li>For each additional year of secondary school, an individual's wages increase by 15-25%</li>
+                    <li>No community has ever achieved continuous and rapid economic growth without first having at least 40% of its adults able to read and write</li>
+                    <li>Education is essential to improving health, halting the spread of deadly diseases and enabling families to better cope with illness</li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <p class="my-2">
+                <h1 class="text-2xl font-bold text-blue-600 pb-4">
+                    Take Action for Children's Education. Sponsor a Package!!!
                 </h1>
                 Your support helps provide children with the following; 
                     <ul class="list-disc px-8">
-                        <li>
-                            A SWAT foundation tuition free School package.
-                        </li> 
-                        <li>
-                	        Classrooms package.
-                        </li>
-                        <li>
-                            Classrooms Furniture package.
-                        </li>
-                        <li>
-                            Students lunch break package.
-                        </li>
-                        <li>
-                            School uniforms package.
-                        </li>
-                        <li>
-                            School books and stationaries package.
-                        </li>
-                        <li>
-                            School healthcare package.
-                        </li>
-                        <li>
-                            School bus package.
-                        </li>
+                        <li>A SWAT foundation tuition free School package</li> 
+                        <li>Classrooms package</li>
+                        <li>Classrooms Furniture package</li>
+                        <li>Students lunch break package</li>
+                        <li>School uniforms package</li>
+                        <li>School books and stationaries package</li>
+                        <li>School healthcare package</li>
+                        <li>School bus package</li>
                     </ul>
                 Please send in your commitment with a check or electronic payment 
             </p>
             <p class="my-2">
-                <h1 class="text-2xl text-blue-600 pb-4">
+                <h1 class="text-2xl font-bold text-blue-600 pb-4">
                     What do I do to sponsor SWAT foundation?
                 </h1>
                 Please contact us and indicate the sponsorship package of your choice, or let us choose package for you. If a pack selected is not currently available, we will offer you another pack. Payments begin the same month the sponsorship pack is assigned 
             </p>
             <p class="my-2">
-                <h1 class="text-2xl text-blue-600 pb-4">
+                <h1 class="text-2xl font-bold text-blue-600 pb-4">
                     Who are the children in the program?
                 </h1>
                 The children are generally refugees or from low income families and have often been orphaned or abandoned. They may be Family Court referrals. They range in age from two to eighteen. A child is eligible for sponsorship until they are 18 years old. Children leaving a participating center are no longer eligible for SWAT foundation sponsorship
