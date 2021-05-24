@@ -7,21 +7,17 @@
     0%{
         position: relative;
         top: 100px;
-        left: -5%;
     }
     50%{
         position: relative;
         top: 50px;
-        left: 10%;
     }
     75%{
         position: relative;
         top: 5px;
-        left: -15%;
     }
     100%{
         position: relative;
         top: 0px;
-        left: 0px;
     }
 }
