@@ -25,9 +25,27 @@
         </div>
         <div>
             <p class="text-2xl">
-                "Community service gives me a valuable opportunity to walk into a different community that is less familiar to me but just as colorful and most importantly, in need"
+                SWAT brings together charities, corporations and individuals to lobby and achieve our ambitious aim of free basic education for children who are victims of insurgency in Northern Nigeria, by providing a practical way to extend a helping hand. Quality education is the key to achieving a healthier, safer and more equitable society - this is why SWAT foundation campaigns for education for all.
             </p>
-            <i>Caroline Landry</i>
+        </div>
+    </div>
+    <div class="grid grid-cols-3 gap-4 px-8 md:px-24 py-4">
+        <div>
+            You can help make education for all a reality.
+            <div>
+                <p>
+                    Education beats poverty - and gives people the tools to help themselves.
+                </p>
+                <p>
+                    This is our moment to shine; we can bring millions of children in from the shadows of ignorance, and light up their lives with the legacy of education
+                </p>
+                <p>
+                    By joining the SWAT team, you can strengthen the Foundation's voice and give us the best possible chance of success. We invite you to become part of the Child Sponsorship Family. Sponsoring an individual child or by making a special donation for a particular child sponsorship is a wonderful way to become involved in developing our society.
+                </p>
+            </div>
+        </div>
+        <div>
+
         </div>
     </div>
 @endsection
