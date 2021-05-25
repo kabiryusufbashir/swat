@@ -19,7 +19,7 @@
             <img class="w-36" src="{{ asset('images/logo.png') }}" alt="SWAT Foundation logo">
         </div>
         <div class="col-span-3">
-            <nav class="md:flex justify-between list-none text-blue-600">
+            <nav class="md:flex justify-between list-none">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Aims & Objectives</a></li>
@@ -30,9 +30,20 @@
             </nav>
         </div>
         <div class="col-span-1 ml-auto">
-            <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
         </div>
     </div>
     @yield('body-content')
+    <div class="bg-blue-600 py-6 px-4 md:px-24 grid grid-cols-3 gap-4 text-white">
+        <div>Man</div>
+        <div>Woman</div>
+        <div>Boy</div>
+    </div>
+    <div class="py-4 text-center">
+        <footer>
+            Copyright © 2021 SWAT Foundation. All Rights Reserved <br>
+            Designed by <a class="hover:text-blue-600" href="https://teampiccolo.com"> Team Piccolo</a>
+        </footer>
+    </div>
 </body>
 </html>

@@ -19,12 +19,12 @@
             </div>
         </div>
     </div>
-    <div class="w-full text-center py-4 px-8 md:px-24 shadow">
+    <div class="w-full text-center py-8 px-8 md:px-24 shadow">
         <div>
             <img class="mx-auto w-72 md:w-96" src="{{ asset('images/logo.png') }}" alt="Foundation Logo">
         </div>
         <div>
-            <p class="text-xl text-blue-600 leading-8">
+            <p class="text-xl leading-8">
                 SWAT brings together charities, corporations and individuals to lobby and achieve our ambitious aim of free basic education for children who are victims of insurgency in Northern Nigeria, by providing a practical way to extend a helping hand. Quality education is the key to achieving a healthier, safer and more equitable society - this is why SWAT foundation campaigns for education for all
             </p>
         </div>
@@ -50,7 +50,7 @@
             <img class="w-full" src="{{ asset('images/students.jpg') }}" alt="Students Photo">
         </div>
         <div class="col-span-1 mx-auto">
-            <div class="py-4 text-blue-600 text-justify">
+            <div class="py-4 text-justify">
                 <p class="py-2">
                     So many Parents have been killed due to the insurgency in the North-east rendering a lot of children orphans
                 </p> 
@@ -60,10 +60,10 @@
             </div>
         </div>
     </div>
-    <div class="md:grid grid-cols-3 gap-6 px-4 md:px-24 py-4 text-justify text-blue-600">
+    <div class="md:grid grid-cols-3 gap-6 px-4 md:px-24 py-6 text-justify">
         <div>
             <p class="my-2">
-                <h1 class="text-4xl font-bold text-blue-600 pb-4">
+                <h1 class="text-4xl font-bold pb-4">
                     SWAT FOUNDATION
                 </h1>
                     SWAT foundation is committed to aiding children especially victims of terror/insurgency in the North-east by providing a practical way for charities, corporations and individuals to extend a helping hand. We are focusing on empowering them through education. Many children remain out of school due to the numerous challenges they face.
@@ -77,11 +77,12 @@
         </div>
         <div>
             <p class="my-2">
-                <h1 class="text-2xl font-bold text-blue-600 pb-4">
+                <h1 class="text-2xl font-bold pb-4">
                     WHY EDUCATION?
                 </h1>
                     So many parent have been killed due to the insurgency in the North-east rendering a lot of children orphans. <br>
                     Education is imperative in tackling poverty. When individuals have the chance to learn basic life and literacy skills, economies grow faster and poverty rates decline. When people go to school, they are able to eventually earn more money and support their families.<br>
+                <img class="w-full my-3 border-4 border-gray-600" src="{{ asset('images/students-2.jpg') }}" alt="Student Photos">
                 <ul class="list-disc px-8">    
                     <li>A single year of primary school increases the wages people earn later in life by 5-15% for boys and even more for girls</li>
                     <li>For each additional year of secondary school, an individual's wages increase by 15-25%</li>
@@ -92,7 +93,7 @@
         </div>
         <div>
             <p class="my-2">
-                <h1 class="text-2xl font-bold text-blue-600 pb-4">
+                <h1 class="text-2xl font-bold pb-4">
                     Take Action for Children's Education. Sponsor a Package!!!
                 </h1>
                 Your support helps provide children with the following; 
@@ -109,13 +110,13 @@
                 Please send in your commitment with a check or electronic payment 
             </p>
             <p class="my-2">
-                <h1 class="text-2xl font-bold text-blue-600 pb-4">
+                <h1 class="text-2xl font-bold pb-4">
                     What do I do to sponsor SWAT foundation?
                 </h1>
                 Please contact us and indicate the sponsorship package of your choice, or let us choose package for you. If a pack selected is not currently available, we will offer you another pack. Payments begin the same month the sponsorship pack is assigned 
             </p>
             <p class="my-2">
-                <h1 class="text-2xl font-bold text-blue-600 pb-4">
+                <h1 class="text-2xl font-bold pb-4">
                     Who are the children in the program?
                 </h1>
                 The children are generally refugees or from low income families and have often been orphaned or abandoned. They may be Family Court referrals. They range in age from two to eighteen. A child is eligible for sponsorship until they are 18 years old. Children leaving a participating center are no longer eligible for SWAT foundation sponsorship
