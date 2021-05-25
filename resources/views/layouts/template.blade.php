@@ -34,12 +34,75 @@
         </div>
     </div>
     @yield('body-content')
-    <div class="bg-blue-600 py-6 px-4 md:px-24 grid grid-cols-3 gap-4 text-white">
-        <div>Man</div>
-        <div>Woman</div>
-        <div>Boy</div>
+    <div class="bg-blue-600 py-6 px-4 md:px-24 md:grid grid-cols-5 gap-8 text-white">
+        <div class="col-span-2">
+            <h1 class="text-4xl font-bold pb-4">
+                SWAT FOUNDATION
+            </h1>
+            <img class="w-2/3" src="{{ asset('images/logo.png') }}" alt="SWAT Logo">
+            <p class="py-2 text-justify">
+                "Community service gives me a valuable opportunity to walk into a different community that is less familiar to me but just as colorful and most importantly, in need"<br>
+                <i>Caroline Landry</i>
+            </p>
+            <div class="flex justify-center my-2">
+                <a class="ml-0" href="#" target="_blank"><i class="fab fa-facebook text-4xl"></i></a>
+                <a class="ml-3" href="#" target="_blank"><i class="fab fa-twitter text-4xl"></i></a>
+                <a class="ml-3" href="#" target="_blank"><i class="fab fa-youtube text-4xl"></i></i></a>
+                <a class="ml-3" href="#" target="_blank"><i class="fab fa-whatsapp text-4xl"></i></a>
+            </div>
+        </div>
+        <div class="col-span-1">
+        <span class="text-xl">Navigation links</span>
+            <nav class="list-none text-white mt-4">
+                <li>
+                    <a class="flex items-center py-2 text-lg" href="#">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            &nbsp; Home
+                    </a>
+                </li>
+                <li>
+                    <a class="flex items-center py-2 text-lg" href="#">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            &nbsp; About Us
+                    </a>
+                </li>
+                <li>
+                    <a class="flex items-center py-2 text-lg" href="#">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            &nbsp; Aims & Objectives
+                    </a>
+                </li>
+                <li>
+                    <a class="flex items-center py-2 text-lg" href="#">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            &nbsp; Mission
+                    </a>
+                </li>
+                <li>
+                    <a class="flex items-center py-2 text-lg" href="#">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            &nbsp; Programs
+                    </a>
+                </li>
+                <li>
+                    <a class="flex items-center py-2 text-lg" href="#">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            &nbsp; Donate
+                    </a>
+                </li>
+                <li>
+                    <a class="flex items-center py-2 text-lg" href="#">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                            &nbsp; Contact Us
+                    </a>
+                </li>
+            </nav>
+        </div>
+        <div class="my-auto col-span-2">
+            <img class="w-1/3 mx-auto" src="{{ asset('images/donate.png') }}" alt="Donate Logo">
+        </div>
     </div>
-    <div class="py-4 text-center">
+    <div class="py-4 text-center text-sm">
         <footer>
             Copyright © 2021 SWAT Foundation. All Rights Reserved <br>
             Designed by <a class="hover:text-blue-600" href="https://teampiccolo.com"> Team Piccolo</a>
