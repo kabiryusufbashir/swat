@@ -60,29 +60,15 @@
             </div>
         </div>
     </div>
-    <div class="md:grid grid-cols-3 gap-6 px-4 md:px-24 py-6 text-justify">
+    <div class="md:grid grid-cols-2 gap-8 px-4 md:px-24 py-6 text-justify">
         <div>
             <p class="my-2">
                 <h1 class="text-4xl font-bold pb-4">
-                    SWAT FOUNDATION
-                </h1>
-                    SWAT foundation is committed to aiding children especially victims of terror/insurgency in the North-east by providing a practical way for charities, corporations and individuals to extend a helping hand. We are focusing on empowering them through education. Many children remain out of school due to the numerous challenges they face.
-                <ul class="list-disc px-8">    
-                    <li>A lot of children are orphans due to insurgency in North East Nigeria and cannot afford to go to school</li>
-                    <li>School materials, transport and fees force guardians of these orphans to choose between sons and daughters, and daughters usually lose out</li>
-                    <li>Schools are often far from home, making the journey dangerous for children as they face the double threat of being the victim of an attack and the risk of road traffic accidents</li>
-                    <li>When children do make it to school, they often struggle to learn in crowded classrooms. They are often taught by untrained and poorly paid teachers. Without the incentives to stay at school and learn, many children drop out. In areas of insurgency, one in three children who starts school never get the chance to complete basic primary school, let alone progress to secondary school</li>
-                </ul>
-            </p>
-        </div>
-        <div>
-            <p class="my-2">
-                <h1 class="text-2xl font-bold pb-4">
                     WHY EDUCATION?
                 </h1>
                     So many parent have been killed due to the insurgency in the North-east rendering a lot of children orphans. <br>
                     Education is imperative in tackling poverty. When individuals have the chance to learn basic life and literacy skills, economies grow faster and poverty rates decline. When people go to school, they are able to eventually earn more money and support their families.<br>
-                <img class="w-full my-3 border-4 border-gray-600" src="{{ asset('images/students-2.jpg') }}" alt="Student Photos">
+                <img class="w-full md:w-1/2 mx-auto my-3 border-4 border-gray-600" src="{{ asset('images/students-2.jpg') }}" alt="Student Photos">
                 <ul class="list-disc px-8">    
                     <li>A single year of primary school increases the wages people earn later in life by 5-15% for boys and even more for girls</li>
                     <li>For each additional year of secondary school, an individual's wages increase by 15-25%</li>
