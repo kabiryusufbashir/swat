@@ -20,8 +20,8 @@
         </div>
         <div class="col-span-3">
             <nav class="md:flex justify-between list-none">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="{{ route('homepage') }}">Home</a></li>
+                <li><a href="{{ route('about') }}">About Us</a></li>
                 <li><a href="#">Aims & Objectives</a></li>
                 <li><a href="#">Mission</a></li>
                 <li><a href="#">Programs</a></li>
@@ -55,13 +55,13 @@
         <span class="text-xl">Navigation links</span>
             <nav class="list-none text-white mt-4">
                 <li>
-                    <a class="flex items-center py-2 text-lg" href="#">
+                    <a class="flex items-center py-2 text-lg" href="{{ route('homepage') }}">
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
                             &nbsp; Home
                     </a>
                 </li>
                 <li>
-                    <a class="flex items-center py-2 text-lg" href="#">
+                    <a class="flex items-center py-2 text-lg" href="{{ route('about') }}">
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
                             &nbsp; About Us
                     </a>
