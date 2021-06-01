@@ -6,7 +6,7 @@
 @endsection
 
 @section('title')
-    SWAT Foundation - About Us
+    SWAT Foundation - Aims & Objectives
 @endsection
 
 @section('body-content')

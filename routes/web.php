@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('about');
 })->name('about');
+
+Route::get('/aims', function () {
+    return view('aims');
+})->name('aims');
