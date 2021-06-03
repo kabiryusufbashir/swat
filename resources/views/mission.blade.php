@@ -12,17 +12,18 @@
 @section('body-content')
     <div class="relative">
         <img class="object-cover w-full h-screen md:h-auto" src="{{ asset('images/bg-3.jpg') }}" alt="SWAT Photo">
-        <div class="w-full px-4 leading-snug absolute top-32 md:top-40 text-white text-5xl items-center flex justify-center">
+        <div class="w-full px-4 leading-snug absolute top-36 md:top-44 text-white text-5xl items-center flex justify-center">
             <div id="slogan" class="text-center">
                 <span class="text-blue-400">Our</span> Foundation's <span class="text-blue-400">Mission</span>
             </div>
         </div>
     </div>
     <div class="px-4 md:px-24 py-6 text-justify">
-        <div class="md:mx-auto md:w-2/3">
+        <div class="md:mx-auto md:w-2/3 text-center">
             <h1 class="text-4xl font-bold pb-4">
                 OUR MISSION
             </h1>
+            <img class="md:w-1/4 mx-auto mb-4" src="{{ asset('images/target.png') }}" alt="Mission Logo">
             <p class="my-2 text-lg">
                 "To build a northeast Nigeria in which every child; victims of terror attacks attains the right to educational survival, protection development and participation. 
                 To support underprivileged persons particularly members of economically and socially disadvantaged groups and to support local, national and international humanitarian as a means of alleviating poverty.

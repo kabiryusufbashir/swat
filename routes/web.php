@@ -28,3 +28,15 @@ Route::get('/aims', function () {
 Route::get('/mission', function () {
     return view('mission');
 })->name('mission');
+
+Route::get('/donate', function () {
+    return view('donate');
+})->name('donate');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
+Route::get('/pay', function () {
+    return view('pay');
+})->name('pay');
