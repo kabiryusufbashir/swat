@@ -24,3 +24,7 @@ Route::get('/about-us', function () {
 Route::get('/aims', function () {
     return view('aims');
 })->name('aims');
+
+Route::get('/mission', function () {
+    return view('mission');
+})->name('mission');
