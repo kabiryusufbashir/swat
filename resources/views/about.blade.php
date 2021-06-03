@@ -13,7 +13,7 @@
     <div class="relative">
         <img class="object-cover w-full h-screen md:h-auto" src="{{ asset('images/bg-2.jpg') }}" alt="SWAT Photo">
         <div class="w-full px-4 leading-snug absolute top-32 md:top-40 text-white text-5xl items-center flex justify-center">
-            <div class="text-center">
+            <div id="slogan" class="text-center">
                 <span class="text-7xl">Save</span> <br>
                 <span class="text-blue-400">With</span> A Touch <span class="text-blue-400">Foundation</span>
             </div>
