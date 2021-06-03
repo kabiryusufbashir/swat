@@ -21,10 +21,10 @@
                         </h1>
                         <img class="md:w-1/4 mx-auto mb-4" src="{{ asset('images/donate.png') }}" alt="Donate Logo">
                     
-                            <input class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="name" placeholder="Name" />
-                            <input class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="email" type="email" placeholder="Your Email" />
-                            <input class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="phone" type="tel" placeholder="Phone number" />
-                            <input class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="amount" type="number" placeholder="Amount to Donate" />
+                            <input required class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="name" placeholder="Name" />
+                            <input required class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="email" type="email" placeholder="Your Email" />
+                            <input required class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="phone" type="tel" placeholder="Phone number" />
+                            <input required class="px-5 w-full border border-gray-400 h-12 rounded-lg my-2 text-lg focus:outline-none" name="amount" type="number" placeholder="Amount to Donate" />
 
                         <div class="px-6 py-4 flex justify-end">
                             <button type="submit" class="bg-blue-600 py-2 text-white rounded-full uppercase w-full h-12 focus:outline-none tracking-wider">Donate</button>

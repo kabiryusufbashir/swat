@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\FlutterwaveController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,6 +39,7 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/pay', function () {
-    return view('pay');
-})->name('pay');
+// route that the button calls to initialize payment
+Route::post('/pay', [FlutterwaveController::class, 'initialize'])->name('pay');
+// The callback url after a payment
+Route::get('/rave/callback', [FlutterwaveController::class, 'callback'])->name('callback');

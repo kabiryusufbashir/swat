@@ -14,6 +14,7 @@
 </head>
 <body>
     <!-- Navigation Bar -->
+    <div class="text-center text-2xl text-green-600">@include('layouts.messages')</div>
     <div class="md:grid grid-cols-5 gap-3 shadow md:px-24 px-8 py-4 flex justify-between items-center">
         <div class="col-span-1">
             <img class="w-36" src="{{ asset('images/logo.png') }}" alt="SWAT Foundation logo">
